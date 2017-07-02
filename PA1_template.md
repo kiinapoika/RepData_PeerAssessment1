@@ -72,7 +72,7 @@ ipak(packages)
 Set file directories
 
 ```r
-file.dir<-"D:/Dropbox/Docs/Data Science Specialization/4. Reproducible Research/Course Project 1/"
+file.dir<-"C:/path/"
 ```
 
 Download & unzip data
@@ -175,7 +175,7 @@ ggplot(steps.by.day, aes(x=total.steps))+
     theme(plot.title = element_text(hjust = 0.5))
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
+![plot1](https://github.com/kiinapoika/RepData_PeerAssessment1/blob/master/plot1.png)<!-- -->
 
 ###3. Calculate and report the mean and median of the total number of steps taken per day
 mean of the total number of steps taken per day
@@ -218,7 +218,7 @@ ggplot(steps.by.interval, aes(x=interval, y=avg.steps))+
     theme(plot.title = element_text(hjust = 0.5))
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-13-1.png)<!-- -->
+![plot2](https://github.com/kiinapoika/RepData_PeerAssessment1/blob/master/plot2.png)<!-- -->
 
 ###2. Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -320,7 +320,7 @@ ggplot(steps.by.day, aes(x=total.steps))+
     theme(plot.title = element_text(hjust = 0.5))
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-21-1.png)<!-- -->
+![plot3](https://github.com/kiinapoika/RepData_PeerAssessment1/blob/master/plot3.png)<!-- -->
 
 ##Are there differences in activity patterns between weekdays and weekends?
 
@@ -352,4 +352,4 @@ ggplot(steps.by.interval, aes(x=interval, y=avg.steps))+
     theme(plot.title = element_text(hjust = 0.5))
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-24-1.png)<!-- -->
+![plot4](https://github.com/kiinapoika/RepData_PeerAssessment1/blob/master/plot4.png)<!-- -->
