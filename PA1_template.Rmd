@@ -40,7 +40,7 @@ ipak(packages)
 
 Set file directories
 ```{r}
-file.dir<-"D:/Dropbox/Docs/Data Science Specialization/4. Reproducible Research/Course Project 1/"
+file.dir<-"C:/path/"
 ```
 
 Download & unzip data
